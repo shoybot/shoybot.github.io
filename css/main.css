@@ -1,0 +1,42 @@
+h1 {
+  font-family: "Cardo", serif;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+.nav-link {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#home {
+  font-family: "Cardo", serif;
+}
+
+.holly {
+  color: coral;
+}
+
+footer {
+  font-size: .8em;
+}
+
+@media screen and (max-width: 574px) {
+  .nav-bottom {
+    position: fixed;
+    justify-content: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  footer {
+    display: none;
+  }
+}
